@@ -1,0 +1,36 @@
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-image: url('{{ asset("images/Plage-de-Cefalu-au-coucher-du-soleil-en-Sicile.jpg") }}');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-container {
+        text-align: center;
+        margin-top: 20px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .btn-success {
+        padding: 15px 30px;
+        font-size: 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-success:hover {
+        background-color: #45a049;
+    }
